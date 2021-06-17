@@ -21,10 +21,10 @@ export class MovieRentComponent implements OnInit {
   @Output() cancelClicked: EventEmitter<any> = new EventEmitter<any>();
   @Output() goBackClicked: EventEmitter<any> = new EventEmitter<any>();
 
-  private memberOfMobileNumber: any;
-  private isNumberValid: boolean = true;
-  private isNumberExist: boolean = true;
-  private returnDate = new Date();
+  memberOfMobileNumber: any;
+  isNumberValid: boolean = true;
+  isNumberExist: boolean = true;
+  returnDate = new Date();
   rentType: any;
   selectedRentTypes: any;
   selectedReturnDates: any;
@@ -35,7 +35,7 @@ export class MovieRentComponent implements OnInit {
   hideWarning = false;
   hideAddMore = false;
   hideSave = true;
-  private inputDisabled: boolean;
+  inputDisabled: boolean;
 
   totalAmount: number = 0;
   today = new Date(this.datePipe.transform(this.getCurrentDate, 'yyyy-MM-dd'));
