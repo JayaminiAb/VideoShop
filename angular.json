@@ -27,7 +27,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/theme/dark-theme.min.scss",
+              "src/theme/light-theme.min.scss"
             ],
             "scripts": [],
             "es5BrowserSupport": true

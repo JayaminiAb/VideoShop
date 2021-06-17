@@ -1,0 +1,12 @@
+[{
+  "memberID": 1, "memberName": "John Smith", "memberMobileNo": "1234567890", "memberType": "Premium"
+},
+  {
+    "memberID": 2, "memberName": "John Smith", "memberMobileNo": "1234567891", "memberType": "Basic"
+  },
+  {
+    "memberID": 3, "memberName": "John Smith", "memberMobileNo": "1234567892", "memberType": "Basic"
+  },
+  {
+    "memberID": 4, "memberName": "John Smith", "memberMobileNo": "1234567893", "memberType": "Premium"
+  }]

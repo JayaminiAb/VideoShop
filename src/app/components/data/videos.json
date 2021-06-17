@@ -1,0 +1,17 @@
+[
+  { "movieID": 1, "movieName": "Movie Namekkk 1", "movieType": "Movie",
+    "isAvailable": true, "availableDate": "2021-06-16", "movieLanguage": "Sinhala"
+  },
+  { "movieID": 2, "movieName": "Movie Namekkk 2", "movieType": "Movie",
+    "isAvailable": true, "availableDate": "2021-06-16", "movieLanguage": "Tamil"
+  },
+  { "movieID": 3, "movieName": "Movie Name 3", "movieType": "Drama",
+    "isAvailable": true, "availableDate": "2021-06-16", "movieLanguage": "Tamil"
+  },
+  { "movieID": 4, "movieName": "Movie Name 4", "movieType": "Drama",
+    "isAvailable": true, "availableDate": "2021-06-16", "movieLanguage": "English"
+  },
+  { "movieID": 5, "movieName": "Movie Name 5", "movieType": "Movie",
+    "isAvailable": true, "availableDate": "2021-06-16", "movieLanguage": "English"
+  }
+]
