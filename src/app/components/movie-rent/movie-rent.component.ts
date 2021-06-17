@@ -258,7 +258,9 @@ export class MovieRentComponent implements OnInit {
       || this.selectedRentTypes == undefined
       || this.selectedReturnDates == undefined
       || this.selectedMovieList.length > this.selectedRentTypes.length
-      || this.selectedMovieList.length > this.selectedReturnDates.length) {
+      || this.selectedMovieList.length > this.selectedReturnDates.length
+      || this.isNumberExist
+      || this.isNumberValid) {
       this.hideAddToCart = true;
     } else {
       this.hideAddToCart = false;
