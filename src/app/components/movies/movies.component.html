@@ -59,7 +59,7 @@
 
         <tr>
           <th>Movie Name</th>
-          <th class="d-none d-lg-block">Movie Type</th>
+          <th>Movie Type</th>
           <th>Status</th>
           <th>Available On</th>
           <th>Language</th>
@@ -69,7 +69,7 @@
         <tr *ngFor="let movie of filteredMovieList | nameFilter: nameFilter | languageFilter: languageFilter;let i = index">
 
           <td>{{movie.movieName}}</td>
-          <td class="d-none d-lg-block">{{movie.movieType}}</td>
+          <td>{{movie.movieType}}</td>
           <td *ngIf="movie.isAvailable"><i class="fa fa-check" aria-hidden="true" style="color: #4CAF50"></i></td>
           <td *ngIf="!movie.isAvailable"><i class="fa fa-times" aria-hidden="true" style="color: #c90000"></i></td>
           <td>{{movie.availableDate}}</td>
